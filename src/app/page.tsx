@@ -1,4 +1,5 @@
 
+import { BuildCreditWithVerafi } from "@/components/view/BuildCreditWithVerafi";
 import { CheckOutOverApi } from "@/components/view/CheckOutOverApi";
 import { JustUsTo } from "@/components/view/JustUsTo";
 import { Hero } from "@/components/view/hero";
@@ -8,7 +9,7 @@ export default function Home() {
   return (
     <>
        {/* <Hero/> */}
-
+       <BuildCreditWithVerafi/>
        <CheckOutOverApi/>
    <JustUsTo/>
     </>

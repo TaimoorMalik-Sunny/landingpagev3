@@ -16,7 +16,7 @@ export const Navbar = () => {
     </div> 
 
     <div className=' flex mt-6 gap-6'>
-    <Button className=' hover:bg-white bg-blue-600 text-white' variant="outline">Check your Score</Button>
+    <Button className=' hover:bg-white bg-blue-500 text-white' variant="outline">Check your Score</Button>
         </div> 
     
 
