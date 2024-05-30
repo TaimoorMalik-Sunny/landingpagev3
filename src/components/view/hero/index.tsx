@@ -11,11 +11,21 @@ export const Hero = () => {
         
         </div>
 
-        <div className="absolute bottom-10 mt-80 left-2/3  pl-40  ">
-    <Button className=' hover:bg-white bg-blue-500 text-white ' variant="outline">Get Started</Button>
+        <div className="absolute bottom-40 mt-80 right-2/3  pr-16  ">
+    <Button className=' hover:bg-white bg-blue-500 text-white ' variant="outline">Create</Button>
         
         </div>
 
+        <div className="absolute bottom-52  right-1/3  pr-32  ">
+    <Button className=' hover:bg-white bg-blue-500 text-white ' variant="outline">Sale Now</Button>
+        
+        </div>
+
+        <div className="absolute bottom-40  right-16  pr-32  ">
+    <Button className=' hover:bg-white bg-blue-500 text-white ' variant="outline">Connect</Button>
+        
+        </div>
+        
         </div>
         </div>
 
