@@ -3,15 +3,21 @@ import React from 'react'
 
 export const Hero = () => {
   return (
-    <div className="relative  w-96 h-96 bg-cover bg-center bg-no-repeat shadow-lg rounded-lg" style={{ backgroundImage: "url('/GroupJustUsto.svg')" }}>
-       
-              <div className=' flex absolute'>
-    <Button className=' hover:bg-white bg-blue-600 text-white' variant="outline">Check your Score</Button>
-        </div> 
-           {/* <img src="Grouphero.svg" alt="Image wrap" className=" relative " /> */}
-         
- 
-         </div>
+    <div className="relative  flex items-center justify-center">
+    <div className="relative">
+      <img src="/Grouphero.svg" alt="Background" className="w-auto h-auto" />
+      <div className="absolute top-96 mt-80 left-2/3  pl-40  ">
+    <Button className=' hover:bg-white bg-blue-500 text-white ' variant="outline">Get Started</Button>
+        
+        </div>
+
+        <div className="absolute bottom-10 mt-80 left-2/3  pl-40  ">
+    <Button className=' hover:bg-white bg-blue-500 text-white ' variant="outline">Get Started</Button>
+        
+        </div>
+
+        </div>
+        </div>
 
 
   )     
